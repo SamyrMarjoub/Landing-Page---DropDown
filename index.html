@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="menu-mobile">
+    <div>
+      <ul>
+        <li>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Features</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item  mobile-list-img" href="#">Todo List</a>
+              <a class="dropdown-item  mobile-list-img2" href="#">Calender</a>
+              <a class="dropdown-item  mobile-list-img3" href="#">Reminders</a>
+              <a class="dropdown-item  mobile-list-img4" href="#">Planning</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="#" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Company</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item  mobile-list-img" href="#">History</a>
+              <a class="dropdown-item  mobile-list-img2" href="#">Our Team</a>
+              <a class="dropdown-item  mobile-list-img3" href="#">Blog</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+      <button id="butao">Register</button>
+    </div>
+  </div>
+  <div class="pai">
+    <header>
+      <div class="first-div">
+        <div class="div-logo">
+          <img src="./images/logo.svg" alt="">
+        </div>
+        <ul id="list-ul">
+          <li class="features_js">
+            <a href="#">Features <span><img src="./images/icon-arrow-down.svg" alt=""></span> </a>
+          </li>
+          <li class="company_js"><a href="#">Company <span><img src="./images/icon-arrow-down.svg" alt=""></span> </a>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a> </li>
+        </ul>
+        <div class="features">
+          <ul>
+            <li id="todo"><a href="#">Todo List</a> </li>
+            <li id="calendar"><a href="#">Calender</a> </li>
+            <li id="reminder"><a href="#">Reminders</a> </li>
+            <li id="planning"><a href="#">Planning</a> </li>
+          </ul>
+        </div>
+        <div class="Company">
+          <ul>
+            <li><a href="#">History</a> </li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Blog</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="second-div">
+        <ul>
+          <a href="">
+            <li style="margin-right: 50px;">Login</li>
+          </a>
+          <li><button>Register</button></li>
+        </ul>
+        <div class="menu-mobile-img">
+          <img src="./images/icon-menu.svg" alt="" id="mobile-img">
+        </div>
+
+      </div>
+    </header>
+  </div>
+  <main class="main-container">
+    <div class="first-div-main">
+      <div class="all">
+        <h1><span class="line-break">Make</span> remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch
+          productivity soar. </p>
+        <button>Learn More</button>
+
+        <div class="div-imgs">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="" id="img-g">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="second-div-main">
+      <div class="img">
+      </div>
+    </div>
+  </main>
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="script.js"></script>
+  <script src="menu.js"> </script>
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
