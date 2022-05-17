@@ -172,7 +172,7 @@ a:hover {
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-image: url('./images/icon-todo.svg');
+    background-image: url('/images/icon-todo.svg');
     position: absolute;
     margin-left: -20px;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ a:hover {
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-image: url('./images/icon-calendar.svg');
+    background-image: url('/images/icon-calendar.svg');
     position: absolute;
     margin-left: -20px;
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ a:hover {
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-image: url('./images/icon-planning.svg');
+    background-image: url('/images/icon-planning.svg');
     position: absolute;
     margin-left: -20px;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ a:hover {
 }
 
 .img {
-    background-image: url('./images/image-hero-desktop.png');
+    background-image: url('/images/image-hero-desktop.png');
     width: 100%;
     background-repeat: no-repeat;
     height: 850px;
@@ -280,7 +280,7 @@ a:hover {
 
 .mobile-list-img::after {
     content: '';
-    background-image: url('./images/icon-todo.svg');
+    background-image: url('/images/icon-todo.svg');
     width: 20px;
     height: 20px;
 }
@@ -309,7 +309,7 @@ a:hover {
     }
 
     .img {
-        background-image: url('./images/image-hero-mobile.png');
+        background-image: url('/images/image-hero-mobile.png');
         width: 100%;
         background-repeat: no-repeat;
         background-size: 400px;
@@ -506,6 +506,14 @@ a:hover {
     }
     .all h1 {
         margin-top: -50px;
+    }
+}
+@media screen and (max-width:360px) {
+    .all h1 {
+        margin-top: -80px;
+    }
+    .div-imgs{
+        margin-top: 10px;
     }
 }
 @media screen and (max-width:340px){
